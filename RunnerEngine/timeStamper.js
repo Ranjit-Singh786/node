@@ -50,6 +50,7 @@ const getTimeStamp = (interval = '1m', start_time = null) => {
         time_diff = exactMath.mul(24, 60 , 7);
     }if(interval == '1M')
     {
+        console.log("Test git push");
         // Set Default to 
         D.setUTCHours(0);
 
